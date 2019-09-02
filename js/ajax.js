@@ -2,7 +2,7 @@ $("#sendmail").on("click", function(){
     var email = $("#email").val().trim();
     var name = $("#name").val().trim();
     var phone = $("#phone").val().trim();
-    var email = $("#email").val().trim();
+    
     
     if(email == ""){
         return false;
