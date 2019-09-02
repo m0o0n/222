@@ -1,0 +1,1105 @@
+body, html
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.media_window
+{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: black;
+    display: none;
+}
+
+.media_window i
+{
+    position: absolute;
+    font-size: 45px;
+    color: white;
+    cursor: pointer;
+    top: 35px;
+    right: 35px;
+}
+
+.menu_elem
+{
+    position: relative;
+    padding-top: 180px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu_elem > div
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.menu_elem > div a
+{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.menu_elem > div a:hover
+{
+    color: aqua;
+    transition: .4s;
+}
+
+/*vh*/
+.wrapper
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 15vh;
+}
+
+.wrapp-logo
+{
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.wrapp-menu
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    
+}
+
+.wrapp-menu a
+{
+    padding: 0 13px;
+    cursor: pointer;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+}
+
+.wrapp-menu a:hover
+{
+    color: red;
+    transition: .5s;
+}
+
+.media-wrapp
+{
+    display: none;
+}
+
+/*vh*/
+.start-move
+{
+    position: relative;
+    width: 100%;
+    height: 65vh;
+}
+
+
+
+.truck
+{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.truck img
+{
+    position: absolute;
+
+    height: 100%;
+}
+
+
+.but-mov
+{
+    position: relative;
+    height: 50px;
+    width: 250px;
+    line-height: 50px;
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+}
+
+
+.but-mov a
+{
+  
+    line-height: 35px;
+}
+
+/*vh*/
+.part1_footer
+{
+    margin-top: 5vh;
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.part1_footer div
+{
+    position: relative;
+    display: flex;
+}
+
+
+.part1_footer div i
+{
+    font-size: 45px;
+}
+
+.media_p1f
+{
+    display: none;
+}
+
+.icon_part1_footer_text
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.short_inf_text
+{
+    position: relative;
+    top: 120px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.frst-inf
+{
+    position: relative;
+    width: 70%;
+    top: 120px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.frst-inf div
+{
+    position: relative;
+    width: 23.33333334%;
+    height: 250px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 0.7px solid rgb(248, 248, 248);
+    
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.frst-inf div:hover
+{
+    transition: .5s;
+    -webkit-box-shadow: 0px 0px 16px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 16px -12px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 16px -12px rgba(0,0,0,0.75);
+}
+
+
+.frst-inf div i
+{
+    position: relative;
+    bottom: 15px;
+    font-size: 45px;
+}
+
+.frst-inf div a
+{
+    position:relative;
+}
+
+.space
+{
+    position: relative;
+    height: 200px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid rgb(248, 248, 248);
+}
+
+.space1
+{
+    position: relative;
+    height: 200px;
+    margin-bottom: 50px;
+    
+}
+
+.bef_text
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.company_info
+{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+
+.cpi_img
+{
+    position: relative;
+    width: 90%;
+    max-width: 800px;
+    height: 450px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.cpi_img img
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+.cpi_text
+{
+    position: relative;
+    width: 80%;
+    top: 35px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.link
+{
+    font-style: italic; 
+    font-weight: 500; 
+    cursor: pointer; 
+    
+}
+
+a.link:hover
+{
+    transition: .3s;
+    color: blue;
+}
+
+.comm_footer
+{
+    position: relative;
+/*    height: 650px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    background: rgb(248, 248, 248);
+}
+
+.cl_say
+{
+    position: relative;
+    padding-bottom: 25px;
+}
+
+
+/**/
+.part2_footer
+{
+    position: relative;
+    
+    min-height: 500px;
+	height: auto;
+    width: 100%;
+    background: rgb(248, 248, 248);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+
+
+.body_slider
+{
+    position: relative;
+    width: 75%;
+    min-height: 170px;
+	height: auto;
+	margin: auto;
+    
+}
+
+
+.slick-slide 
+{
+	
+	outline: none;
+}
+.polosa .slick-slide p
+{
+	padding: 0 35px;
+	width: 80%;
+	height: auto;
+	max-width: 900px;
+	margin: auto;
+	font-size: 25px;
+	color: black;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	
+}
+/**/
+
+
+
+
+
+.polosa .slick-dots li button:before
+{
+    background: grey;
+}
+
+.slick-dots li.slick-active button:before
+{
+    background: green;
+}
+
+.slick-prev:before, .slick-next:before
+{
+    
+    border-radius: 50%;
+    border: none;
+    color: black;
+}
+
+
+.make_com
+{
+    position: relative;
+    width: 70%;
+    top: 80px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.make_com input
+{
+    position: relative;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.make_com div
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.mk_first
+{
+    width: 50%;
+}
+
+.mk_second
+{
+    margin-right: 15px;   
+    width: 24%;
+}
+
+
+.mk_third
+{
+    
+    width: 24%;
+}
+
+
+.mk_fourth
+{
+    width: 50%;
+    height: 120px;
+    margin-bottom: 15px;
+    padding: 5px;
+    min-height: 120px;
+    max-height: 300px;
+}
+
+
+.send_comm
+{
+    position: relative;
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+}
+
+
+.send_comm p
+{
+    line-height: 35px;
+}
+
+
+.main_footer
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: rgb(230, 230, 230);
+    display: flex;
+    justify-content: space-around;
+    padding: 35px 0 50px 0;
+}
+
+
+.main_footer > div
+{
+    position: relative;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main_footer > div h3
+{
+    position: relative;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+
+
+
+.txt_service
+{
+    position: relative;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.full_service_list
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.full_service_list1
+{
+    position: relative;
+    
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.space2
+{
+    position: relative;
+    height: 45px;
+}
+
+
+.wrapp-menu a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.fast_form
+{
+    position: fixed;
+    -webkit-position: fixed;
+    z-index: 9999;
+    right: 35px;
+    bottom: 50px;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background: green;
+    display: flex;
+    cursor: pointer;
+    overflow: hidden;
+    flex-wrap: nowrap;
+}
+
+.fast_form i
+{
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 15px;
+    
+}
+
+.fast_form a
+{
+    position: relative;
+    padding-left: 15px;
+    line-height: 75px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+
+
+.fast_form:hover
+{
+    width: 180px;
+    transition: .6s;
+    border-radius: 30px;
+    
+}
+
+.container_of
+{
+    position: fixed;
+    -webkit-position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: 9999999;
+    display: none;
+}
+
+.container_of::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    background: black;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+}
+
+.open_form
+{
+    position: relative;
+    height: 50%;
+    width: 70%;
+    left: 15%;
+    right: 15%;
+    z-index: 999999999;
+    border: 2px solid black;
+    top: 15%;
+    bottom: 15%;
+    background: rgb(230, 230, 230);
+}
+
+.open_form i
+{
+    position: absolute;
+    right: 20px;
+    top:  20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.opform_inp
+{
+    position: relative;
+    top: 55px;
+    height: 80%;
+    display: flex;
+    -ms-display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+
+.opform_inp input
+{
+    position: relative;
+    padding: 5px;
+    max-width: 400px;
+}
+
+.opf_flex
+{
+    position: relative;
+    display: flex;
+    -ms-display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.ph_dp_group
+{
+    position: relative;
+    display: flex;
+    -ms-display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/*
+.opf_flex div
+{
+    position: relative;
+    width: 48%;
+}
+*/
+
+.radio1
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 95px;
+}
+
+.block a
+{
+    position: relative;
+/*    padding: 0 10px;*/
+    margin-right: 7px;
+}
+
+
+.block
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opf_ename
+{
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.opf_phone
+{
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+.dp1
+{
+    position: relative;
+    width: 100%;
+}
+
+.send_fst
+{
+    position: relative;
+    width: 70%;
+    margin-top: 40px;
+    left: 15%;
+    right: 15%;
+}
+
+.chesk_boxes div
+{
+    position: relative;
+    left: -55px;
+}
+
+
+.com_pack a
+{
+   position: relative;
+   margin-right: 85px;
+}
+
+.furniture_ass a
+{
+    position: relative;
+    margin-right: 35px;
+}
+
+
+.txt_resident
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    
+}
+
+.about_resident
+{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.resident_imgcase
+{
+    position: relative;
+    width: 70%;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.resident_imgcase img
+{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+.es_form
+{
+    position: relative;
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-top: 45px;
+}
+
+.es_form > div
+{
+    background: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/-hc9b5b/malaysia-coins-falling-slow-motion-on-white-background-business-finance-currency-concept-1080p-250fps_vkgzplmbx__F0000.png');
+}
+
+.es_form > div h3
+{
+    position: relative;
+    letter-spacing: 0.05em;
+    padding: 18px;
+    border-bottom: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.es
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.es_info
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.curr_es
+{
+}
+
+.es_inputs
+{
+    position: relative;
+    width: 90%;
+    padding: 35px 0 35px 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.es_inputs > div
+{
+    position: relative;
+    width: 100%;
+}
+
+
+.es_inp
+{
+    position: relative;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.es_chesk
+{
+    position: relative;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.es_chesk > div
+{
+    width: 48%;
+    position: relative;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.es_chesk > div div
+{
+    display: flex;
+}
+
+.es_chesk > div div a
+{
+    margin-left: 10px;
+}
+
+.es_inp p
+{
+    align-self: center;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.es_inp textarea
+{
+    position: relative;
+    width: 100%;
+    min-height: 70px;
+    max-height: 350px;
+    top: 15px;
+    padding: 5px;
+}
+
+.es_col_inp p
+{
+     align-self: center;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.es_inp > div
+{
+    position: relative;
+    width: 48%;
+    margin-right: 10px;
+    
+    display: flex;
+    justify-content: flex-start;
+}
+
+.es_inp div > input
+{
+    padding: 5px;
+    position: relative;
+    width: 100%;
+}
+
+
+.es_col_inp
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.radio2
+{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.es_inp_kitchen
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 35px 0 35px 0;
+}
+
+
+.kitch_inp
+{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.kitch_inp > div
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.kitch_inp > div div
+{
+    position: relative;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.kitch_inp > div div a
+{
+    position: relative;
+    margin-left: 10px;
+}
+
+
+
+.es_inp_tf
+{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.es_inp_tf > div
+{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    
+}
+
+.es_inp_tf > div form
+{
+    display: flex;
+    
+}
+
+.es_inp_tf > div form div
+{
+    padding: 0 20px;
+}
+
+.comments_com
+{
+    position: relative;
+    width: 70%;
+    padding: 45px 0 45px 0;
+    margin: 0 auto;
+}
+
+.comments_com > div
+{
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.com_block
+{
+    position: relative;
+    width: 70%;
+   
+    border-radius: 45px;
+    border: 1px solid gray;
+    margin: 0 auto;
+    
+    
+}
+
+.com_block a
+{
+    position: absolute;
+    text-align: left;
+    font-size: 18px;
+    top: -13px;
+    left: 45px;
+    background: white;
+    display: block;
+    padding: 0px 8px 0px 8px;
+    
+}
+
+.com_block p
+{
+    padding: 25px 35px 25px 35px;
+    text-align: center;
+}
+
+.contacts_in > div
+{
+    position: relative;
+    display: flex;
+    text-align: start;
+    flex-wrap: wrap;
+}
+
+.contacts_in > div div
+{
+    position: relative;
+    padding: 0 7px 10px 0;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.contacts_in > div p
+{
+    font-weight: 600;
+}
+
+
+
+.but-mov
+{
+    position: relative;
+    margin-bottom: 35px;
+    
+}

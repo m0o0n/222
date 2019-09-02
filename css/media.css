@@ -1,0 +1,355 @@
+@media(max-width: 1150px){
+    .wrapp-menu a
+    {
+        letter-spacing: 0;
+        padding: 0 7px;
+    }
+    
+    .open_form
+    {
+        width: 80%;
+        left: 10%;
+        right: 10%;
+        height: 400px;
+    }
+}
+
+@media(max-width: 1120px)
+{
+    .send_fst
+    {
+        margin-top: 75px;
+    }
+    
+    .radio1
+    {
+        margin-left: 15px;
+    }
+    
+    .opf_inp_email
+    {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    .opf_inp_name
+    {
+        width: 100%;
+    }
+}
+
+@media(max-width: 920px){
+    .wrapp-menu a
+    {
+        letter-spacing: 0;
+        padding: 0 5px;
+        font-size: 10px;
+    }
+    .frst-inf div
+    {
+        position: relative;
+        width: 47%;
+    }
+    
+    .open_form
+    {
+        width: 90%;
+        left: 5%;
+        right: 5%;
+    }
+    
+    .es_form 
+    {
+        width: 80%;
+    }
+}
+
+@media(max-width: 820px){
+    .wrapp-menu 
+    {
+        display: none;
+    }
+    
+    .media-wrapp
+    {
+        display: flex;
+        align-items: center;
+    }
+    
+    .media-wrapp i
+    {
+        align-self: center;
+        font-size: 45px;
+        cursor: pointer;
+    }
+    
+    .es_form 
+    {
+        width: 90%;
+    }
+}
+
+
+@media(max-width: 720px)
+{
+    
+    .es_form 
+    {
+        width: 95%;
+    }
+    .make_com
+{
+    position: relative;
+    width: 90%;
+    top: 80px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.make_com input
+{
+    position: relative;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.make_com div
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.mk_first
+{
+    width: 80%;
+}
+
+.mk_second
+{
+    margin-right: 15px;   
+    width: 38%;
+}
+
+
+.mk_third
+{
+    
+    width: 38%;
+}
+
+
+.mk_fourth
+{
+    width: 80%;
+    height: 120px;
+    margin-bottom: 15px;
+    padding: 5px;
+    min-height: 120px;
+    max-height: 300px;
+}
+
+
+.send_comm
+{
+    position: relative;
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+    
+}
+
+
+.send_comm p
+{
+    line-height: 35px;
+}
+    
+.opf_flex
+{
+    flex-direction: column;
+}
+    
+.opform_inp
+{
+    flex-direction: row;
+    justify-content: space-around;
+}
+     
+    .ph_dp_group
+    {
+        margin-left: 10px;
+    }
+    
+    .send_fst
+    {
+        margin-top: 25px;
+    }
+    
+    .radio1
+    {
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    
+    .contacts_in > div
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}
+
+@media(max-width: 550px){
+    
+    .part1_footer
+    {
+        display: none;
+    }
+    
+    .media_p1f
+    {
+        display: flex;
+        justify-content: center;
+        background: rgb(248, 248, 248);
+    }
+    
+    .media_p1f > div
+    {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+    }
+    
+    .p1f_media_txt
+    {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    
+    .first_p1_cild > div
+    {
+        display: flex;
+        text-align: center;
+    }
+    
+    .second_p1_cild > div
+    {
+        display: flex;
+        text-align: center;
+    }
+    
+    .first_p1_cild > div i
+    {
+        position: relative;
+        padding: 10px 20px;
+        font-size: 45px;
+    }
+    
+    .second_p1_cild > div i
+    {
+        position: relative;
+        padding: 10px 20px;
+        font-size: 45px;
+    }
+    
+    .frst-inf div
+    {
+        position: relative;
+        width: 95%;
+    }
+    
+    .cpi_img
+    {
+        height: 350px;
+    }
+}
+
+@media(max-width: 550px){
+    
+    .es_form 
+    {
+        width: 100%;
+    }
+    .cpi_img
+    {
+        height: 250px;
+    }
+    
+    .block
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+
+    
+    .opform_inp
+    {
+        flex-wrap: wrap;
+    }
+    
+    .open_form
+    {
+        height: auto;
+    }
+    
+    .ph_dp_group
+    {
+        margin-left: 0px;
+    }
+    
+    .send_fst
+    {
+        position: relative;
+        bottom: 10px;
+    }
+}
+
+
+
+@media(max-width: 450px){
+    
+    .full_service_list1
+    {
+        width: 98%;
+    }
+    .es
+    {
+        width: 120%;
+    }
+    .es_form{
+        width: 100%;
+    }
+    
+    .es_form > div
+    {
+        width: 100%;
+    }
+    
+.chesk_boxes div
+{
+    position: relative;
+    left: 0px;
+}
+.com_pack a
+{
+   position: relative;
+   margin-right: 75px;
+}
+
+.furniture_ass a
+{
+    position: relative;
+    margin-right: 25px;
+}
+
+}
