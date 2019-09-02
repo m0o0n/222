@@ -1,0 +1,556 @@
+<html id="html">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        
+        
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+        
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="lib/animate.css">
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css" />
+        
+        <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+    </head>
+    
+    <body id="body">
+        
+        
+        
+        
+        
+        <div class="fast_form" id="fast_form">
+            <i class="fas fa-box-open" id="open_fst_form"></i>
+<!--
+            <script>
+                var fst_container = document.getElementById('container_of');
+                open_fst_form.onclick = function(){
+                    fst_container.style.display = "block";
+                };
+            </script>
+-->
+            <a class="fst_start" id="fst_start" style="color: white;">Start Moving</a>
+        </div>
+        <script>
+                var fst_container = document.getElementById('container_of');
+                fast_form.onclick = function(){
+                    fst_container.style.display = "block";
+                };
+            </script>
+        
+        <div class="container_of" id="container_of">
+        <div class="open_form">
+            <i class="fas fa-times" id="close_fst_form"></i>
+            <script>
+                var fst_container = document.getElementById('container_of');
+                close_fst_form.onclick = function(){
+                    fst_container.style.display = "none";
+                };
+            </script>
+            
+            <form>
+                <div class="opf_ename">
+                        <input type="text" placeholder="E-mail" class="opf_inp_email" id="email">
+                        <input type="text" placeholder="Name" class="opf_inp_name" id="name">
+                </div>
+                
+                <div class="ph_dp_group">
+                    <input type="text" placeholder="Phone" class="opf_phone" id="phone">
+                </div>
+                
+                <div class="form-group dp1">
+                        
+                    <div class="input-group date" id="datetimepicker1">
+                            
+                            
+                        <input type="text" class="form-control"  id="date"/>
+                            
+                         <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-remove"></span> 
+                        </span>
+                            
+                        <span class="input-group-addon">
+                            <span class="glyphicon-calendar glyphicon"></span>
+                        </span>
+                            
+                            
+                    </div>
+                </div>
+                
+                <div class="radio">
+                    <input type="radio" name="radgroup" value="A"><a>Apartament</a>
+                    <input type="radio" name="radgroup" value="B"><a>Condo</a>
+                    <input type="radio" name="radgroup" value="C"><a>House</a>
+                    <input type="radio" name="radgroup" value="D"><a>Office</a>
+                    <input type="radio" name="radgroup" value="E"><a>Chalet</a>  
+                </div>
+                
+                <div class="chesk_boxes">
+                    <div class="com_pack">
+                        <a>Complete package</a><input type="checkbox">
+                    </div>
+                    
+                    <div class="furniture_ass">
+                        <a>Furniture assembly service</a><input type="checkbox">
+                    </div>
+                </div>
+                
+                <button class="btn btn-success send_fst" id="sendmail">SEND</button>
+            </form>
+<!--
+            <div class="opf_flex">
+            <div class="opform_inp">
+                
+                    <div class="opf_ename">
+                        <input type="text" placeholder="E-mail" class="opf_inp_email" id="email">
+                        <input type="text" placeholder="Name" class="opf_inp_name" id="name">
+                    </div>
+                    
+                    <div class="ph_dp_group">
+                    <input type="text" placeholder="Phone" class="opf_phone" id="">
+                    
+                    <div class="form-group dp1">
+                        
+                                        <div class="input-group date" id="datetimepicker1">
+                            
+                            
+                                            <input type="text" class="form-control"  id="date"/>
+                            
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-remove"></span> 
+                             </span>
+                            
+                                            <span class="input-group-addon">
+                                              <span class="glyphicon-calendar glyphicon"></span>
+                                            </span>
+                            
+                            
+                                        </div>
+                                   </div>
+                    
+                    </div>
+                
+                
+                
+            </div>
+                
+                <div class="radio1">
+                    <a>Chesk a type of building</a>
+                    <form class="block">
+<input type="radio" name="radgroup" value="A"><a>Apartament</a>
+<input type="radio" name="radgroup" value="B"><a>Condo</a>
+<input type="radio" name="radgroup" value="C"><a>House</a>
+<input type="radio" name="radgroup" value="D"><a>Office</a>
+<input type="radio" name="radgroup" value="E"><a>Chalet</a>                        
+</form>
+                    <div class="chesk_boxes">
+                    <div class="com_pack">
+    
+                        <a>Complete package</a><input type="checkbox">
+                    </div>
+                    
+                    <div class="furniture_ass">
+    
+                        <a>Furniture assembly service</a><input type="checkbox">
+                    </div>
+                        </div>
+                </div>
+            </div>
+            <button class="btn btn-success send_fst">SEND</button>
+-->
+        </div>
+            
+        </div>
+        
+        
+        <div class="media_window" id="media_window">
+            <i class="fas fa-times" id="close_media_menu" style="z-index: 999999;"></i>
+            <script>
+            close_media_menu.onclick = function(){
+                
+                var fast_form = document.getElementById('fast_form');
+                      fast_form.style.display = 'block';
+               var media_menu = document.getElementById('media_window');
+                    media_menu.style.display = 'none';
+                var htms = document.getElementById('html');
+                      htms.style.overflowY = 'scroll';
+            };
+            </script>
+            <div class="menu_elem">
+                <div class="media_service">
+                    
+                    <h3>Services</h3>
+                <a href="resident.html">Residental Moving</a>
+                <a href="commercial.html">Comercial Moving</a>
+                <a href="complete_pack.html">Complete Package</a>
+                <a href="furniture.html">Furniture Assembly</a>
+                <a href="ldistance.html">Long Distance</a>
+                <a href="shop.html">Shop</a>
+                <a href="regional.html">Regional Moving Services</a>
+                <a href="#">More Services</a>
+                    
+                </div>
+                
+                <div class="media_menu_elem">
+                    
+                    <h3>Menu</h3>
+                <a href="index.html">Accueil</a>
+                <a href="workers.html"> Déménageurs à Montréal avec camion</a>
+                <a href="index.html#bef_text">A propos</a>
+                <a href="services.html">Services</a>
+                <a href="esminate.html">Estimation</a>
+                <a href="coments.html" style="padding-bottom: 15px;">TÉMOIGNAGES</a>
+                    
+                    <div class="media_contact">
+                    <h3>Contacts</h3>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+
+            
+        </div>
+        
+        <script>
+                  function open_wrapp(){
+                      window.scrollTo(0, 0);
+                      var fast_form = document.getElementById('fast_form');
+                      fast_form.style.display = 'none';
+                    var bodys = document.getElementById('body');
+                      var htms = document.getElementById('html');
+                      htms.style.overflowY = 'hidden';
+                    bodys.style.overflowY = 'hidden';
+                    var media_menu = document.getElementById('media_window');
+                    media_menu.style.display = 'block';
+                  }
+        </script>
+        
+        <div class="wrapper bg-light">
+            <div class="wrapp-logo">
+                <a>Fast Move</a>
+            </div>
+            
+            <div class="wrapp-menu">
+                
+                
+                        
+                        <a href="index.html" style="text-decoration: none;">Accueil</a>
+                        <a href="workers.html" style="text-decoration: none;"> Déménageurs à Montréal avec camion</a>
+                        <a href="index.html#bef_text" style="text-decoration: none;">A propos</a>
+                        <a href="services.html" style="text-decoration: none;">Services</a>
+                        <a href="esminate.html" style="text-decoration: none;">Estimation</a>
+                        <a href="coments.html" style="text-decoration: none;">TÉMOIGNAGES</a>
+                        <a href="#contacts" style="text-decoration: none;">Contacts</a>
+                        
+                    
+            </div>
+            
+            <div class="media-wrapp"><i class="fas fa-bars" id="media_wrapp" onclick="open_wrapp()"></i>
+            
+            </div>
+        </div>
+        
+        <div class="start-move">
+            <div class="wow fadeInLeftBig truck">
+                <img src="images/1404057_thumb.png">
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="btn btn-success but-mov bounceInUp" id="start"><a>Start Moving</a></div>
+                    <script>
+                        start.onclick = function()
+                        {
+                            location.href = 'esminate.html';
+                        };
+                    </script>
+                </div>
+            </div>
+        </div>
+        
+        <div class="part1_footer bg-light">
+                    
+                        <div>
+                            <i class="fas fa-briefcase" style="cursor: pointer"></i>
+                            <div class="icon_part1_footer_text">
+                               <a>548</a>
+                               <a>Moving Completed</a>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <i class="far fa-clock" style="cursor: pointer"></i>
+                            <div class="icon_part1_footer_text" >
+                               <a>3</a>
+                               <a>Working Years</a>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <i class="far fa-star" onclick="return location.href = 'coments.html'" style="cursor: pointer"></i>
+                            <div class="icon_part1_footer_text">
+                               <a>448</a>
+                               <a>Positive feedback</a>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <i class="far fa-heart" style="cursor: pointer"></i>
+                            <div class="icon_part1_footer_text">
+                                <a>1938</a>
+                               <a>Happy clients</a>
+                            </div>
+                        </div>
+
+                    </div>
+<!--        media first footer-->
+        <div class="media_p1f">
+            <div class="first_p1_cild">
+                <div>
+                     <i class="fas fa-briefcase" style="cursor: pointer"></i>
+                    <div class="p1f_media_txt">
+                        <a>548</a>
+                        <a>Moving Completed</a>
+                    </div>
+                </div>
+                
+                <div>
+                    <i class="far fa-clock" style="cursor: pointer"></i>
+                    <div class="p1f_media_txt">
+                        <a>3</a>
+                        <a>Working Years</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="second_p1_cild">
+                <div>
+                    <i class="far fa-star" onclick="return location.href = 'coments.html'" style="cursor: pointer"></i>
+                    <div class="p1f_media_txt">
+                        <a>448</a>
+                        <a>Positive feedback</a>
+                    </div>
+                </div>
+                
+                <div>
+                    <i class="far fa-heart" style="cursor: pointer"></i>
+                    <div class="p1f_media_txt">
+                        <a>1938</a>
+                        <a>Happy clients</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="short_inf_text"><h3>SHORTCUT</h3></div>
+        
+        <div class="frst-inf" >
+            <div onclick="return location.href = 'resident.html'">
+                <i class="fas fa-landmark"></i>
+                <a>Residental Moving</a>
+            </div>
+            
+            <div onclick="return location.href = 'commercial.html'">
+                <i class="fas fa-dolly"></i>
+                <a>Comercial Moving</a>
+            </div>
+            
+            <div onclick="return location.href = 'complete_pack.html'">
+                <i class="fas fa-boxes"></i>
+                <a>Complete Package</a>
+            </div>
+
+            <div onclick="return location.href = 'furniture.html'">
+                <i class="fas fa-hammer"></i>
+                <a>Furniture Assembly</a>
+            </div>
+            
+            <div onclick="return location.href = 'ldistance.html'">
+                <i class="fas fa-code-branch"></i>
+                <a>Long Distance</a>
+            </div>
+            
+            <div onclick="return location.href = 'shop.html'">
+                <i class="fas fa-shopping-cart"></i>
+                <a>Shop</a>
+            </div>
+            
+            <div onclick="return location.href = 'regional.html'">
+                <i class="fas fa-map-marked-alt"></i>
+                <a>Regional Moving Services</a>
+            </div>
+            <div>
+                <i class="fas fa-ellipsis-h"></i>
+                <a>More Services</a>
+            </div>
+        </div>
+        
+        <div class="space"></div>
+        
+        <div class="bef_text" id="bef_text"><h2>About our company</h2></div>
+        <div class="company_info" id="company_info">
+            <div class="cpi_img" ><img src="images/cpi.jpg"></div>
+            <div class="cpi_text">
+                <div><a style="font-weight: 600;">Moving company from Montreale</a>, Déménagement Simplex offers a complete set of moving solutions and services to our clients. Whether it is a <a class="link" href="#">residential moving</a>, <a class="link" href="#">commercial moving</a>, industrial or any other types, we’ve got the experience, the right tools and the right people to carry on the job properly. 
+
+We have acquired a solid reputation with our clients and this reputation is tested every day. <br>
+                    <a style="font-weight: 600;">Our skilled and experienced movers</a> are the face of our company and our most valuable asset. Their professional work is what makes every moving nice and easy for our clients.
+                    <br>
+                    <br>
+
+<a>At Démenagement Simplex we have the following values :</a>
+
+                <ul>
+                    <li>Reliability – as soon as we agree upon a deal with the client, we’ll make our best and put all necessary efforts in order to honour our word.</li>
+                    <li>Professionalism –While moving an apartment or an entire factory, we work equally hard to fulfill the client’s needs by adapting ourselves to each and every situation.</li>
+                    <li>Punctuality – time is money and it is certain that our clients aren’t losing any of it with us. Each moving is planned in advance and we make sure to avoid any unnecessary delay.</li>
+                    <li>Honesty – our client’s goods are manipulated with the outmost care and attention in order to preserve them. From the start to the end of the process, we make a honest job that complies to the highest standards.</li>
+                </ul>
+
+
+
+There are new trends in the moving area: the client requires an excellent service at an affordable price and that is exactly what we have to offer. Moreover, at Déménagement Simplex we are flexible and accommodate the schedules and the needs of our clients.
+<br>
+                <a style="font-weight: 600; position: relative; top: 10px;">DÉMENAGEMENT SIMPLEX – MOVING HAS NEVER BEEN SO EASY!</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="space1"></div>
+        <div class="comm_footer" style="height: auto; min-height: 650px;">
+            
+            <div class="cl_say" id="feed" style="position: relative; padding: 35px;"><h2>Our clients says</h2></div>
+            
+            
+            <div class="part2_footer">
+                         
+                        <div class="body_slider">
+                            <div class="polosa">
+                        
+                                <div><p class="polosa_text">" Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap."</p><p style="margin-top: 20px; font-size: 15px;">MICHAEL HOPKINS </p></div>
+                                    <div><p class="polosa_text">" Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap."</p><p style="margin-top: 20px; font-size: 15px;">MICHAEL HOPKINS </p></div>
+                                <div><p class="polosa_text">" Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap."</p><p style="margin-top: 20px; font-size: 15px;">MICHAEL HOPKINS </p></div>
+                                
+                            </div>
+                        
+                        </div>
+                    </div>
+        </div>
+        <div class="make_com">
+            <div>
+            <input type="text" placeholder="E-mail" class="mk_first">
+                </div>
+            
+               <div>
+            <input type="text" placeholder="Name" class="mk_second">
+            <input type="text" placeholder="Last name" class="mk_third">
+                </div>
+            <div>
+            <textarea class="mk_fourth"></textarea>
+            </div>
+            <div class="btn btn-success send_comm" style="width: 50%;"><p>Send Comment</p></div>
+            
+        </div>
+        
+<!--        <div class="space1"></div>-->
+        
+        <div class="main_footer">
+            
+            <div class="site_map">
+                <h3>Site map</h3>
+                <a href="index.html">Accueil</a>
+                <a href="workers.html"> Déménageurs à Montréal avec camion</a>
+                <a href="index.html#bef_text">A propos</a>
+                <a href="services.html">Services</a>
+                <a href="esminate.html">Estimation</a>
+                <a href="coments.html">TÉMOIGNAGES</a>
+                
+            </div>
+            
+            <div class="services">
+                <h3>Services</h3>
+                <a href="resident.html">Residental Moving</a>
+                <a href="commercial.html">Comercial Moving</a>
+                <a href="complete_pack.html">Complete Package</a>
+                <a href="furniture.html">Furniture Assembly</a>
+                <a href="ldistance.html">Long Distance</a>
+                <a href="shop.html">Shop</a>
+                <a href="regional.html">Regional Moving Services</a>
+                <a href="#">More Services</a>
+            </div>
+            
+            <div class="contacts" id="contacts">
+                <h3>Contacts</h3>
+                <div class="contacts_in">
+                    <div>
+                        <div><p>Address:</p></div>
+                        <div><a>8917 Boul. LaSalle, Montreal, QC, Canada</a></div>
+                    </div>
+                    <div>
+                        <div><p>Telephone:</p></div>
+                        <div><a>514.812.2005</a></div>
+                    </div>
+                    <div>
+                        <div><p>Email:</p></div>
+                        <div><a>info@demenagementsimplex.com</a></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+
+        <script src="js/ajax.js"></script>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/moment-with-locales.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap-datetimepicker.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script type="text/javascript">
+           $(document).ready(function(){
+            $('.polosa').slick({
+		         arrows: true,
+		         dots: true
+		 
+	         });
+           });
+        </script>
+        
+        
+        
+        
+        <script type="text/javascript">
+            $(function () {
+                 $('#datetimepicker1').datetimepicker({
+	               locale: 'ru',
+		           stepping:10,
+		           format: 'DD.MM.YYYY',
+		           defaultDate: moment('01.11.2017').format('DD.MM.YYYY'),
+		           daysOfWeekDisabled:[0,6]
+	             });
+                 $('#datetimepicker2').datetimepicker({
+	               locale: 'ru'
+	             });
+                $('.glyphicon-remove').click(function () {
+            $('#datetimepicker1').data("DateTimePicker").clear();
+        });
+               });
+        </script>
+    </body>
+</html>
